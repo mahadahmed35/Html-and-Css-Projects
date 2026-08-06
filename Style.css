@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap");
 :root{
     --main-color: #deab5f;
     --primary-color: #312e2e;
@@ -49,7 +49,7 @@ li a:hover{
   background-position: center;
   background-size: cover;
   height: 100vh;
-  font-family: "Playfair Display SC", sans-serif;
+  font-family: "Playfair Display SC", serif;
   font-weight: normal;
   display: flex;
   flex-direction: column;
@@ -72,15 +72,101 @@ text-align: center;
     bottom: 4rem;
     font-size: 4rem;
     word-spacing: 10px;
-    margin-bottom: -40px;
+    margin-bottom: -60px;
 }
 .main-btn{
     position: absolute;
     bottom: 2rem;
     padding: 10px 30px;
     margin-top: 20px;
+    background: transparent;
     background:var(--main-color);
     border: none;
     cursor: pointer;
     transform: translateY(60px);
+}
+#our-story{
+margin-top: 15%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+
+
+}
+
+.img{
+    width: 400px;
+    height: 400px;
+    background: url(Coffee/Images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+.title-style{
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-family: "Playfair Display SC", serif;
+    font-size: 4rem;
+    color: #fff;
+    transform: translateX(-100px);  
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+}
+
+.section-content p{
+    max-width: 500px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 20px;
+    margin: 20px 0;
+
+}
+.coffee-container{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+
+
+
+}
+.content-section p{
+max-width: 500px;
+    
+}
+.img-container{
+    width: 500px;
+    height: 400px;
+}
+.img-2{
+    width: 400px;
+    height: 400px;
+}
+
+.title-two{
+    font-size: 2rem;
+    font-family: "Playfair Display SC", serif;
+    color: #fff;
+    font-weight: normal;
+}
+.content-section p{
+    color: #fff;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.products{
+    margin-top: 5rem;
+}
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
 }
