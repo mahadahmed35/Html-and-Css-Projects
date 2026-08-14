@@ -191,6 +191,61 @@ max-width: 500px;
     position: relative;
     margin-bottom: 4rem;
 }
-.card img{
-    
+.card-img{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:-60px;
 }
+
+.img-one{
+background: url('Coffee/Images/1.png');
+background-position: center;
+background-size: cover;
+}
+.img-two{
+background: url('Coffee/Images/2.png');
+background-position: center;
+background-size: cover;
+}
+
+.img-three{
+background: url('Coffee/Images/3.png');
+background-position: center;
+background-size: cover;
+}
+.card-title{
+    font-family:sans-serif;
+    font-weight: 4rem;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.card .items p{
+  font-weight: normal;
+  color: #fff;
+  margin:20px 0 ;  
+}
+
+/*Footer*/
+footer{
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: serif;
+}
+footer .container{
+margin: 20px;
+max-width:300px ;
+text-align: center;
+}
+
+footer .headings-info{
+margin-bottom: 20px;
+}
+ footer p {
+    line-height: 25px;
+ }
