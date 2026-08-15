@@ -1,0 +1,62 @@
+
+body{
+    background: black;
+}
+.products{
+    margin: 10px;
+}
+
+.title-three{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+.title{
+    font-family: sens-serif;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card{
+    border: 2px solid #deab5f;
+    padding: 0 20px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  top: -60px;
+}
+
+.img-one{
+    background: url('Coffee/Images/1.png');
+    background-size: cover;
+    background-position: center;
+}
+.img-two{
+    background: url('Coffee/Images/2.png');
+    background-size: cover;
+    background-position: center;
+}
+.img-three{
+    background: url('Coffee/Images/3.png');
+    background-size: cover;
+    background-position: center;
+}
