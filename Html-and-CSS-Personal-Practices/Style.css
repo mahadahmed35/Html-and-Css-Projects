@@ -2,6 +2,8 @@
 body{
     background: black;
 }
+
+
 .products{
     margin: 10px;
 }
@@ -59,4 +61,15 @@ body{
     background: url('Coffee/Images/3.png');
     background-size: cover;
     background-position: center;
+}
+h1{
+    font-family: sans-serif;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.card .items p{
+    font-family: sans-serif;
+    color: #fff;
+    margin: 20px 0;
 }
