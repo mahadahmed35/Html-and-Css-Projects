@@ -50,3 +50,113 @@ nav .burger span{
     margin: 4px;
     background: #000;
 }
+
+header{
+    margin: 6rem;
+}
+.main-headings{
+    width: 50%;
+    font-size: 3rem;
+}
+
+.primary-headings{
+    width: 50%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.bg-gray{
+    background: rgb(53, 53, 53);
+    color: #fff;
+    padding: 2px 10px;
+    font-weight: bold;
+}
+/* Header End */
+
+/* Main Start */
+main{
+    margin: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+main .img{
+    width: 40%;
+    margin: 10px;
+}
+
+/* Section Three Start */
+
+.section-three{
+    margin-left: 5rem;
+}
+
+.section-three .primary-headings{
+    margin-bottom: 10rem;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-three .item h1{
+    font-size: 2rem;
+    columns: rgb( 53, 53, 53);
+    margin-left: 1rem;
+}
+.section-three img{
+    width: 400px;
+    height: 500px;
+    margin: 50px;
+}
+
+/* Section Three End */
+ 
+/* Footer Start */
+footer {
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    /* background: rgb(43, 43, 43); */
+    background: rgb(144, 194, 200);
+    height: 50vh;
+}
+ 
+footer .logo-container h1{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+}
+
+footer .logo-container p{
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+footer .about-company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer .about-company .container{
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.about-company .container h1{
+    margin-bottom: 20px;
+
+}
+
+.about-company .container p{
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
