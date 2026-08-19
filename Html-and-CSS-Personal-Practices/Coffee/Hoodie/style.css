@@ -135,3 +135,30 @@ header{
   width: 400px;
   height: 400px;
 }
+
+/* Section one */
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.img-container{
+    border-radius: 50%;
+    box-shadow: 4px 7px 5px 2px #bcbaba;
+}
+
+.section-one-img{
+background: url(images/Product/gesphotoss-1i9K55ni5Dk-unsplash.jpg);
+background-position: top;
+background-size: cover;
+}
+.primary-headings{
+    max-width: 500px;
+    font-family: var(--primary-font);
+    line-height: 25px;
+    margin-bottom: 1rem;
+    color: #716d6d;
+}
