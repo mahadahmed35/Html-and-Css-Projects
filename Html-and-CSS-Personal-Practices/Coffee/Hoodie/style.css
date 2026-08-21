@@ -239,3 +239,29 @@ height: 200px;
 .customer{
     text-align: center;
 }
+
+.customers-heading{
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.customers-reviews .customer-discription{
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-family: var(--primary-font);
+}
+.customer .customer-img .img{
+width: 200px;
+height: 200px;
+border-radius: 100%;
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+margin-bottom: 20px;
+}
