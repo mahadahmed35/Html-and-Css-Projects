@@ -5,9 +5,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: whitesmoke;
-}
 
 :root {
   --main-color: #e3e8e4;
@@ -46,5 +43,109 @@ ul li a:hover{
     border-radius: 100px;
     color: #fff;
     cursor: pointer;
-    transition: all 0.5s ease-out;
+    /* transition: all 0.5s ease-out; */
+}
+.btn-outline{
+background: transparent;
+border: none;
+margin-left: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+
+/* Header */
+
+header{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-container{
+    margin: 6rem;
+}
+
+.main-headings{
+    font-size: 4rem;
+    font-family: var(--main-font);
+    color: #0000004f;
+    margin-bottom: 2rem;
+}
+
+.main-headings span{
+    color: #000;
+}
+
+.primary-headings{
+    max-width: 500px;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-bottom:  2rem;
+}
+
+.img-container{
+    width: 500px;
+    height: 500px;
+    background: var(--main-color);
+    border-radius: 100%;
+}
+
+.img-container img{
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+/* Popularity */
+.popularity{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.popularity div{
+    margin-right: 5rem;
+}
+
+.popularity div h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #363636;
+    font-family: var(--main-font);
+
+}
+
+.popularity div p{
+    color: #363636;
+    font-family: sans-serif;
+}
+
+/* PRODUCTS */
+.products-heading{
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    color: #0000004f;
+}
+
+.products-heading span{
+    color: #000;
+}
+
+.products{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
