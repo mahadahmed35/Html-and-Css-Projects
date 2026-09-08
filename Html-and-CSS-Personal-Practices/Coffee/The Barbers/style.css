@@ -1,0 +1,13 @@
+.barbers{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.items ul li {
+    display: inline;
+    gap: 300px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
