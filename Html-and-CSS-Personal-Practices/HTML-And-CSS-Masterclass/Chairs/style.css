@@ -150,6 +150,12 @@ align-items: center;
     align-items: center;
     margin-top: 50px;
 }
+.product .product-img-layer{
+    background: var(--main-color);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px;
+}
 .product .product-img-layer .img{
     width: 200px;
     height: 200px;
@@ -246,7 +252,7 @@ margin-top: 10rem;
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    color: #FFF;
+    color: #fff;
 }
 .card h1{
     color: black;
@@ -339,7 +345,38 @@ footer .about-company .container{
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1150px) {
+  .img-container {
+    width: 340px;
+    height: 340px;
+  }
+  .d-none {
+    display: none;
+  }
+}
 
+@media only screen and (max-width: 900px) {
+  header {
+    height: 120vh;
+    text-align: center;
+    justify-content: center;
+  }
+
+  header .content-container {
+    margin-bottom: 6rem;
+    margin-top: 4rem;
+    margin-left: 0;
+  }
+
+  .popularity {
+    margin-top: 22rem;
+    text-align: center;
+  }
+
+  .d-none {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .primary-headings {
