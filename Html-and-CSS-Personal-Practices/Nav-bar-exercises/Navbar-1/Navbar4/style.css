@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+h1{
+    color: #fff;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    
+}
+
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: fuchsia;
+}
+
+button{
+    padding: 5px 5px;
+    font-weight: bold;
+
+}
+button:hover{
+    color: teal;
+}
