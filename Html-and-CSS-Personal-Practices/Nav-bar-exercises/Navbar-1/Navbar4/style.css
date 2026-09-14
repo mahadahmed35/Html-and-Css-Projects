@@ -13,6 +13,7 @@ nav{
     padding: 20px;
 }
 h1{
+    margin-right: 50px;
     color: #fff;
 }
 ul {
@@ -38,5 +39,6 @@ button{
 
 }
 button:hover{
-    color: teal;
+    background-color: teal;
+    color: #fff;
 }
